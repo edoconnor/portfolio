@@ -1,6 +1,9 @@
 h1 {
   font-size: 3rem;
-  color: #30336b;
+  color: #130f40;
+}
+h2 {
+  color: #130f40;
 }
 p {
   font-size: 1rem;
@@ -11,7 +14,12 @@ p {
   margin-bottom: 1rem;
 }
 .h-100 {
-  background-color: #dfe6e9;
+  background-color: #f1f2f6;
+}
+.jumbotron {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 1rem;
 }
 @media (max-width: 415px) {
   .jumbotron {
@@ -26,7 +34,6 @@ p {
     font-size: 0.75rem;
   }
   .title {
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
   }
-
 }
