@@ -13,15 +13,20 @@ p {
 .h-100 {
   background-color: #dfe6e9;
 }
-@media (max-width: 500px) {
+@media (max-width: 415px) {
   .jumbotron {
-    padding: 0;
-    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: yellow;
   }
   h1 {
-    font-size: 2.75rem;
+    font-size: 2rem;
   }
   p {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
+  .title {
+    padding-bottom: .5rem;
+  }
+
 }
