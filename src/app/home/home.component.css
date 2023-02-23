@@ -10,7 +10,10 @@ p {
   font-weight: 400;
   color: #30336b;
 }
- 
+.button-group {
+  display: flex;
+  justify-content: center;
+}
 .container-sm {
   margin-bottom: 1rem;
 }
